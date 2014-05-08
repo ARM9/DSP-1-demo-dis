@@ -872,7 +872,7 @@ incbin "gfx/38133_to_388A1.bin"
 
 	org $3869A
 ;Embedded in sprite data
-CODE_03869A:	LDX #$4000 	;            Address in vram to put sprites
+CODE_03869A:	LDX #$4000 	;            VRAM address to put sprites at
 				JSL CODE_01803B	;[$01:803B]
 
 	org $388A2

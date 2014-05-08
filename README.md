@@ -1,4 +1,4 @@
 #### Build instructions ####
 
-1. Install Make and Asar
-2. Type make in cmd/terminal
+1. Install asar
+2. Use make, or drag dsp1.s into the asar executable
